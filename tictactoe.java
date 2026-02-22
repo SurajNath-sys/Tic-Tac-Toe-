@@ -31,8 +31,10 @@ public class tictactoe
         if (board[1] == board[5] && board[5] == board[9]) return 1;
         if (board[3] == board[5] && board[5] == board[7]) return 1;
 
-        for (int i = 1; i <= 9; i++) {
-            if (board[i] == (char)('0' + i)) {
+        for (int i = 1; i <= 9; i++) 
+        {
+            if (board[i] == (char)('0' + i)) 
+            {
                 return -1;
             }
         }
@@ -47,7 +49,8 @@ public class tictactoe
         int player = 1, choice, status;
         char mark;
 
-        do {
+        do 
+        {
             showBoard();
 
             player = (player % 2 != 0) ? 1 : 2;
@@ -56,9 +59,11 @@ public class tictactoe
             System.out.print("Player " + player + ", enter your choice: ");
             choice = sc.nextInt();
 
-            if (choice >= 1 && choice <= 9 && board[choice] == (char)('0' + choice)) {
+            if (choice >= 1 && choice <= 9 && board[choice] == (char)('0' + choice)) 
+            {
                 board[choice] = mark;
-            } else {
+            } else 
+            {
                 System.out.println("Invalid move! Try again.");
                 player--;
             }
@@ -79,5 +84,6 @@ public class tictactoe
     }
 
 }
+
 
 
