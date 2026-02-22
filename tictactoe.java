@@ -17,7 +17,8 @@ public class tictactoe
         System.out.println();
     }
 
-    static int checkWin() {
+    static int checkWin() 
+    {
 
         if (board[1] == board[2] && board[2] == board[3]) return 1;
         if (board[4] == board[5] && board[5] == board[6]) return 1;
@@ -39,7 +40,8 @@ public class tictactoe
         return 0; 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         int player = 1, choice, status;
@@ -77,4 +79,5 @@ public class tictactoe
     }
 
 }
+
 
