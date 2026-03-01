@@ -38,14 +38,12 @@ public class tictactoe
 
         return 0; 
     }
-
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
 
         int player = 1, choice, status;
         char mark;
-
         do 
         {
             showBoard();
@@ -64,7 +62,6 @@ public class tictactoe
                 System.out.println("Invalid move! Try again.");
                 player--;
             }
-
             status = checkWin();
             player++;
 
@@ -81,6 +78,7 @@ public class tictactoe
     }
 
 }
+
 
 
 
