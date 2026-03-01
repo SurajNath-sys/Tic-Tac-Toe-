@@ -2,7 +2,6 @@ import java.util.*;
 
 public class tictactoe 
 {
-
     static char[] board = {'0','1','2','3','4','5','6','7','8','9'};
 
     static void showBoard() 
@@ -16,10 +15,8 @@ public class tictactoe
         System.out.println("    " + board[7] + " | " + board[8] + " | " + board[9]);
         System.out.println();
     }
-
     static int checkWin() 
     {
-
         if (board[1] == board[2] && board[2] == board[3]) return 1;
         if (board[4] == board[5] && board[5] == board[6]) return 1;
         if (board[7] == board[8] && board[8] == board[9]) return 1;
@@ -84,6 +81,7 @@ public class tictactoe
     }
 
 }
+
 
 
 
