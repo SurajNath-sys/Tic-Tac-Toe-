@@ -72,11 +72,10 @@ public class tictactoe
             System.out.println(" Player " + (player - 1) + " wins!");
         else
             System.out.println("Game Draw!");
-
         sc.close();
     }
-
 }
+
 
 
 
