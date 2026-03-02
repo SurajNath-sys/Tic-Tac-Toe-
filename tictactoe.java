@@ -3,7 +3,6 @@ import java.util.*;
 public class tictactoe 
 {
     static char[] board = {'0','1','2','3','4','5','6','7','8','9'};
-
     static void showBoard() 
     {
         System.out.println("\n        TIC TAC TOE        \n");
@@ -78,6 +77,7 @@ public class tictactoe
     }
 
 }
+
 
 
 
