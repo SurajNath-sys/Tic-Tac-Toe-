@@ -5,7 +5,6 @@ public class tictactoe
     static void showBoard() 
     {
         System.out.println("\n        TIC TAC TOE        \n");
-
         System.out.println("    " + board[1] + " | " + board[2] + " | " + board[3]);
         System.out.println("   ---|---|---");
         System.out.println("    " + board[4] + " | " + board[5] + " | " + board[6]);
@@ -74,6 +73,7 @@ public class tictactoe
         sc.close();
     }
 }
+
 
 
 
