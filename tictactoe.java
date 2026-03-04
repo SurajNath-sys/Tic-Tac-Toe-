@@ -38,7 +38,6 @@ public class tictactoe
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
-
         int player = 1, choice, status;
         char mark;
         do 
@@ -73,6 +72,7 @@ public class tictactoe
         sc.close();
     }
 }
+
 
 
 
