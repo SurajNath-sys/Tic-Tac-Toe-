@@ -32,7 +32,6 @@ public class tictactoe
                 return -1;
             }
         }
-
         return 0; 
     }
     public static void main(String[] args) 
@@ -72,6 +71,7 @@ public class tictactoe
         sc.close();
     }
 }
+
 
 
 
