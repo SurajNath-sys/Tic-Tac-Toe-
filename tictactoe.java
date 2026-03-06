@@ -70,8 +70,8 @@ public class tictactoe
             System.out.println("Game Draw!");
         sc.close();
     }
-    
 }
+
 
 
 
