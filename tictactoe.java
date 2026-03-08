@@ -60,7 +60,8 @@ public class tictactoe
             status = checkWin();
             player++;
 
-        } while (status == -1);
+        }
+            while (status == -1);
 
         showBoard();
 
@@ -71,6 +72,7 @@ public class tictactoe
         sc.close();
     }
 }
+
 
 
 
