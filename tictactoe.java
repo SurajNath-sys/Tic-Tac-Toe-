@@ -59,7 +59,6 @@ public class tictactoe
             }
             status = checkWin();
             player++;
-
         }
             while (status == -1);
 
@@ -72,6 +71,7 @@ public class tictactoe
         sc.close();
     }
 }
+
 
 
 
