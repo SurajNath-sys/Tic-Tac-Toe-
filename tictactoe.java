@@ -42,6 +42,7 @@ public class tictactoe
         do 
         {
             showBoard();
+            
             player = (player % 2 != 0) ? 1 : 2;
             mark = (player == 1) ? 'X' : 'O';
             System.out.print("Player " + player + ", enter your choice: ");
@@ -69,6 +70,7 @@ public class tictactoe
         sc.close();
     }
 }
+
 
 
 
