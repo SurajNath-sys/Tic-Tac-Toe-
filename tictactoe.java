@@ -47,6 +47,7 @@ public class tictactoe
             mark = (player == 1) ? 'X' : 'O';
             System.out.print("Player " + player + ", enter your choice: ");
             choice = sc.nextInt();
+            
             if (choice >= 1 && choice <= 9 && board[choice] == (char)('0' + choice)) 
             {
                 board[choice] = mark;
