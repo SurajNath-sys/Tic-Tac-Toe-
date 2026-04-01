@@ -59,6 +59,7 @@ public class tictactoe
             player++;
         }
             while (status == -1);
+        
         showBoard();
 
         if (status == 1)
