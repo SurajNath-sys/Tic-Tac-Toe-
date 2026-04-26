@@ -61,7 +61,7 @@ public class tictactoe
             while (status == -1);
 
         showBoard();
-        
+    
         if (status == 1)
             System.out.println(" Player " + (player - 1) + " wins!");
         else
